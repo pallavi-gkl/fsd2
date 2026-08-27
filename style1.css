@@ -1,0 +1,88 @@
+/* General Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+   }
+   /* Header */
+   header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+   }
+   header h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+   }
+   header p {
+    color: white;
+    font-size: 18px;
+   }
+   /* Navigation */
+   nav {
+    background-color: #172554;
+    text-align: center;
+    padding: 15px
+   }
+   nav a {
+       color: white;
+       text-decoration: none;
+       font-size: 18px;
+       margin: 0 15px;
+      }
+      /* Common Section Styling */
+      section {
+       width: 80%;
+       max-width: 900px;
+       margin: 30px auto;
+       padding: 30px;
+       background-color: white;
+       border-radius: 12px;
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      /* Section Headings */
+      h2 {
+       color: #1e3a8a;
+       font-size: 28px;
+       margin-bottom: 15px;
+       border-bottom: 2px solid #1e3a8a;
+       padding-bottom: 8px;
+      }
+      /* Paragraph */
+   p {
+       font-size: 18px;
+       margin-bottom: 10px;
+      }
+      /* Skills Section */
+      #skills {
+       text-align: center;
+      }
+      #skills ul {
+       display: flex;
+       justify-content: center;
+       gap: 15px;
+       list-style: none;
+      }
+      #skills li {
+       background-color: #2563eb;
+       color: white;
+       padding: 10px 20px;
+       border-radius: 20px;
+       font-size: 16px;
+      }
+      /* Contact Section */
+      #contact {
+       text-align: center;
+      }
+      #contact p {
+       color: #555;
+      }
+      
+   
